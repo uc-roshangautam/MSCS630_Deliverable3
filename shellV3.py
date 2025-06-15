@@ -600,7 +600,7 @@ class EnhancedShell:
         
         while self.running:
             try:
-                command_line = input("enhanced_shell> ")
+                command_line = input("shellV3> ")
                 self.execute_command(command_line)
             except KeyboardInterrupt:
                 print("\nUse 'exit' to quit")
